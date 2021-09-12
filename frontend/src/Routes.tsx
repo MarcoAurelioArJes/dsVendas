@@ -9,7 +9,6 @@ function Routes() {
                 <Route path="/" exact>
                     <Home />
                 </Route>
-                /**Exact não entra para não dar conflito */
                 <Route path="/dashboard">
                     <Dashboard />
                 </Route>
